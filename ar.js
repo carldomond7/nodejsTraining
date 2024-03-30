@@ -25,7 +25,7 @@ const docs = await loader.load()
 console.log(docs)
 
 const response = await chain.invoke({
-    input: "what is silent night?"
+    input: "what is silent night?",
     context: docs,
 });
 
